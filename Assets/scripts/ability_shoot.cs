@@ -13,7 +13,7 @@ public class ability_shoot : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetButtonDown("Jump")) {
+		if(Input.GetButtonDown("Jump") || Input.GetMouseButtonDown(0)) {
 			GameObject bulletInstance = (GameObject) Instantiate(this.bulletPrefab, transform.position, Quaternion.identity);
 			bulletInstance.transform.eulerAngles = gameObject.transform.eulerAngles;
 			bulletInstance.rigidbody.AddForce(transform.forward * bulletForce);
