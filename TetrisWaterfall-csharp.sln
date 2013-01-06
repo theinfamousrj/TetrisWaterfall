@@ -1,19 +1,23 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{B9048ABE-D393-7E3A-CAFF-454E3D4F69A2}") = "TetrisWaterfall", "Assembly-CSharp-vs.csproj", "{2BE167A9-5819-055F-5056-A322F7F80DF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{2BE167A9-5819-055F-5056-A322F7F80DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE167A9-5819-055F-5056-A322F7F80DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE167A9-5819-055F-5056-A322F7F80DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE167A9-5819-055F-5056-A322F7F80DF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-						GlobalSection(MonoDevelopProperties) = preSolution
+																					GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

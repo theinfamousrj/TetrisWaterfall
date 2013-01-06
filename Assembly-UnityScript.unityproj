@@ -44,10 +44,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ability_move.js" />
-     <Compile Include="Assets\auto_destroy.js" />
-     <Compile Include="Assets\auto_spawn.js" />
-     <Compile Include="Assets\rand_color.js" />
+     <Compile Include="Assets\scripts\ability_move.js" />
+     <Compile Include="Assets\scripts\auto_destroy.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

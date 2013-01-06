@@ -1,9 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/rand_color.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/auto_spawn.cs">
     <Files>
-      <File FileName="Assets/auto_destroy.js" Line="10" Column="31" />
-      <File FileName="Assets/rand_color.js" Line="6" Column="13" />
+      <File FileName="Assets/scripts/auto_spawn.cs" Line="8" Column="1" />
+      <File FileName="Assets/scripts/auto_spawn.js" Line="17" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
