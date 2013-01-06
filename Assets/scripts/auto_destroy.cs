@@ -3,15 +3,19 @@ using System.Collections;
 
 public class auto_destroy : MonoBehaviour {
 	
-	public double deathTimer;
+	public double deathTimer = 1.0;
 	
 	// Use this for initialization
 	void Start () {
-		this.deathTimer = 1.0;
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		if(this.deathTimer <= 0.0) {
+			Destroy(gameObject);
+		}
 		
+		this.deathTimer -= Time.deltaTime;
 	}
 }
